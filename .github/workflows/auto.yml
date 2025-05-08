@@ -2,7 +2,7 @@ name: Auto
 
 on:
   schedule:
-    - cron: "30 22 * * *" # 北京时间上午06:30
+    - cron: "0 0 * * *" # 日本時間9:00に実行; 分=0 時=0 / UTC0時+時差9時間=9時
   workflow_dispatch:
 
 env:
